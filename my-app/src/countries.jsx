@@ -3,7 +3,7 @@ import "./Cityselector.css";
 
 export default function CitySelector() {
   const [count, setCount] = useState();
-  const [data, setData] = useState(" ");
+  const [data, setData] = useState("");
 
   const getValue = (event) => {
     //console.log(event.target.value);
@@ -12,7 +12,7 @@ export default function CitySelector() {
 
   const calculation = () => {
     //console.log(data);
-    if (!data || data == " ") {
+    if (!data || data == "") {
       setCount("Error");
       return;
     }
