@@ -26,7 +26,7 @@ export default function CitySelector() {
   return (
     <div>
       <h1>React Calculator</h1>
-      <input type="" value={data} />
+      <input type="text" value={data} />
       <h3>{count}</h3>
       <div id="button">
         <button onClick={getValue} value="7">
